@@ -76,29 +76,6 @@ const jsonLd = {
                     <span id="busuanzi_page_pv">加载中...</span> 阅读
                 </div>
             </div>
-            <!-- 评论 -->
-            <style is:global>
-            /* 评论区域样式 */
-            .comments-section {
-                margin-top: 3rem;
-                padding-top: 2rem;
-                border-top: 1px solid var(--border-color);
-            }
-
-            /* Giscus 容器样式 */
-            .giscus {
-                margin-top: 1.5rem;
-                min-height: 300px;
-                border-radius: var(--radius-large);
-                overflow: hidden;
-            }
-
-            /* 暗色模式适配 */
-            :global(html.dark) .giscus-frame {
-                color-scheme: dark;
-            }
-
-            </style>
 
             <!-- title -->
             <div class="relative onload-animation">
@@ -171,4 +148,27 @@ const jsonLd = {
     </div>
     <!-- 阅读量统计脚本 -->
     <script src="//api.busuanzi.cc/static/3.6.9/busuanzi.min.js" defer></script>
+    <!-- 评论 -->
+    <style is:global>
+    /* 评论区域样式 */
+    .comments-section {
+        margin-top: 3rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--border-color);
+    }
+
+    /* Giscus 容器样式 */
+    .giscus {
+        margin-top: 1.5rem;
+        min-height: 300px;
+        border-radius: var(--radius-large);
+        overflow: hidden;
+    }
+
+    /* 暗色模式适配 */
+    :global(html.dark) .giscus-frame {
+        color-scheme: dark;
+    }
+
+    </style>
 </MainGridLayout>
