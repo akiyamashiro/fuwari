@@ -16,6 +16,12 @@ const currentYear = new Date().getFullYear();
         本站总访客数：<span id="busuanzi_site_uv">加载中...</span><br>
         本站今日访问量：<span id="busuanzi_today_site_pv">加载中...</span>
         本站今日访客数：<span id="busuanzi_today_site_uv">加载中...</span><br>
+        <!--运行时间 -->
+        <script type="text/javascript">function runtime(){const t=new Date("08/22/2025 08:00:00"),n=new Date,s=n-t,
+        e=Math.floor(s/1e3),o=Math.floor(e/86400),i=Math.floor(e%86400/3600),a=Math.floor(e%3600/60);
+        document.getElementById("runningtime").innerHTML=`⭐本站已运行: ${o}天${i}小时${a}分 ☁️`}setInterval(runtime,1e3)</script>
+        <div class="transition text-50 text-sm text-center hidden md:block"><p id="runningtime"> </p></div>
+
         &copy; <span id="copyright-year">{currentYear}</span> {profileConfig.name}. All Rights Reserved. /
         <a class="transition link text-[var(--primary)] font-medium" target="_blank" href={url('rss.xml')}>RSS</a> /
         <a class="transition link text-[var(--primary)] font-medium" target="_blank" href={url('sitemap-index.xml')}>Sitemap</a><br>

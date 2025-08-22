@@ -25,6 +25,7 @@ pnpm-debug.log*
 package-lock.json
 bun.lockb
 yarn.lock
+venv
 
 # ide
 .idea
