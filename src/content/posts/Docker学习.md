@@ -108,7 +108,7 @@ docker update --restart=always [容器]
 
 docker各个基础命令之间的关系如图：
 
-![1](.\1.png)
+![1](./directory/Docker学习/1.png)
 
 ## 3.数据卷
 
@@ -118,7 +118,7 @@ docker各个基础命令之间的关系如图：
 
 看图说话环节：
 
-![2](.\2.png)
+![2](./directory/Docker学习/2.png)
 
 数据卷相关命令：（标注文档地址供查看命令的详细内容）
 
